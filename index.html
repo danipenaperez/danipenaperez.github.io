@@ -1,1 +1,27 @@
-Hello World
+<HTML>
+    <HEAD>
+    <TITLE>Abriendo y cerrando ventanas con Javascript vía Víctor M. Rivas Santos</TITLE>
+    <SCRIPT>
+    <!--
+    var nuevaVentana;
+    function  nueva() {
+      nuevaVentana=window.open("", "segundaPag", 
+      "toolbar=yes,location=no,menubar=yes,resizable=yes,"+
+      "width=30,height=30" );
+      nuevaVentana.document.write("<HTML><HEAD><TITLE>"+
+      "Sin Título</TITLE></HEAD>\n");
+      nuevaVentana.document.write("<BODY><form>\n");
+      nuevaVentana.document.write("<input type='button' "+
+      "value='Cerrar' onClick='window.close();'>\n");
+      nuevaVentana.document.write("</form>\n");
+      nuevaVentana.document.write("</BODY></HTML>\n");
+      nuevaVentana.document.close();
+    }
+    // -->
+    </SCRIPT>
+    <BODY>
+    <FORM>
+      <INPUT TYPE="button" VALUE="Abrir" onClick="nueva();"><br>
+    </FORM>
+    </BODY>
+    </HTML>
